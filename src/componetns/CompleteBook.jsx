@@ -129,7 +129,7 @@ const PageCover = React.forwardRef((props, ref) => {
             size="stretch"
             minWidth={mobSize <=400?355:655} //315 for mob
             maxWidth={1000}
-            minHeight={mobSize <=400 ? 700 :500}// 700 for mob
+            minHeight={mobSize <=400 ? 550 :500}// 700 for mob
             maxHeight={1533}
             maxShadowOpacity={0.5}
             showCover={true}

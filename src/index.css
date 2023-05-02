@@ -9,6 +9,8 @@
 }
 body{
     background-image: url('./assets/5.jpg');
+    height: 100vh;
+    overflow: hidden;
 }
 .book{
     transition: .7s;
