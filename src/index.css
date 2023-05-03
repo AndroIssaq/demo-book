@@ -46,14 +46,28 @@ body{
     }
   }
 
-  @media (max-width:400px) {
-    .page{
+
+    .page1{
         overflow-y: scroll !important;
     }
-  }
+    .page1::-webkit-scrollbar{
+        width: 5px;
+      }
+      .page1::-webkit-scrollbar-track{
+        background: #56214d00;
+      }
+      .page1::-webkit-scrollbar-thumb{
+        background: #56214d;
+        width: 5px;
+        border-radius: 5px;
+        transition: .3s;
+      }
 .page{
     height: 100% !important;
     background-color: beige;
+}
+.overlay{
+    background: linear-gradient(180deg , rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.578));
 }
 .flipped .front , .flipped .back{
     transform: rotateY(-180deg);
